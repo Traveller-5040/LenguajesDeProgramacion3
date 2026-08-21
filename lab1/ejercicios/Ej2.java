@@ -1,5 +1,5 @@
 package ejercicios;
-// Se importan las librerias necesarias para crear el programa
+// Se importan las clases necesarias para crear el programa
 import java.util.Scanner;
 import java.util.Vector;
 
