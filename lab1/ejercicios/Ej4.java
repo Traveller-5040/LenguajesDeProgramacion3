@@ -1,3 +1,4 @@
+package ejercicios;
 // Se importa la libreria Scanner par obtener valores ingresados en el teclado
 import java.util.Scanner;
 
