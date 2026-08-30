@@ -18,6 +18,7 @@ public abstract class Curso {
         this.nombre = n;
         this.codigo = cod;
         this.profesor = doc;
+        doc.asignarCurso(this);
         this.categoria = cat;
 
         this.inscritos = new ArrayList<>();
