@@ -36,7 +36,7 @@ public class Binarios2 {
         }
 
         // Inicia un try-with-resources que permitira la escritura en un archivo .dat
-        try (FileOutputStream fos = new FileOutputStream("C:/Users/Admin/Documents/acad/ucsm/4to_Semestre/LenguajesDeProgramacion_III/Lab7/matriz.dat");
+        try (FileOutputStream fos = new FileOutputStream("src/archivos/matriz.dat");
              DataOutputStream salida = new DataOutputStream(fos)) {
 
             salida.writeInt(filas);
