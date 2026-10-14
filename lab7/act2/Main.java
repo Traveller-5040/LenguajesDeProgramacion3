@@ -11,7 +11,7 @@ public class Main {
         String cadena;
 
         // Se crea un bloque try-with-resources
-        try (PrintWriter salida = new PrintWriter("C:/Users/Admin/Documents/acad/ucsm/4to_Semestre/LenguajesDeProgramacion_III/Lab7/datos.txt")) {
+        try (PrintWriter salida = new PrintWriter("src/archivos/datos.txt")) {
             System.out.println("Introduce texto. Para acabar introduce la cadena FIN:");
             // Se guarda la linea de entrada en el Objeto String "cadena"
             cadena = sc.nextLine();
